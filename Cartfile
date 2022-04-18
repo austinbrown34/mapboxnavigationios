@@ -1,6 +1,7 @@
-binary "https://www.mapbox.com/ios-sdk/Mapbox-iOS-SDK.json" ~> 5.1
-binary "https://www.mapbox.com/ios-sdk/MapboxNavigationNative.json" ~> 6.2.1
-github "austinbrown34/mapboxdirections" "master"
+binary "https://www.mapbox.com/ios-sdk/Mapbox-iOS-SDK.json"
+binary "https://api.mapbox.com/downloads/v2/carthage/mobile-navigation-native/MapboxNavigationNative.json" == 94.0.1
+binary "https://api.mapbox.com/downloads/v2/carthage/mapbox-common/MapboxCommon-ios.json" == 21.2.0
+github "mapbox/MapboxDirections.swift"
 github "mapbox/turf-swift" ~> 0.3
 github "mapbox/mapbox-events-ios" ~> 0.9.5
 github "ceeK/Solar" ~> 2.1.0
